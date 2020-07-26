@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	
-	$player_set = !isset($_SESSION['user_turn']) ? header('location: ../controller/playerController.php') : $_SESSION['user_turn'];
+	$player_set = !isset($_SESSION['user_turn']) ? header('location: ../controller/PlayerController.php') : $_SESSION['user_turn'];
 	
 	unset($_SESSION['user_turn']);
 	

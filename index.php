@@ -1,3 +1,3 @@
 <?php  
-	header('location: controller/playerController.php');
+	header('location: controller/PlayerController.php');
 ?>
